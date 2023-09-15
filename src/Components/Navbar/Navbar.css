@@ -1,0 +1,18 @@
+body{
+    margin: 0   ;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color:#FF169D;
+    justify-content: space-between;
+    padding: 15px 20%;
+}
+
+.button{
+    color:white;
+    background-color: #BD0067;
+    border-radius: 3px;
+    border: 0;
+    padding: 10px 15px;
+}
