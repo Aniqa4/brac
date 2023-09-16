@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer/Footer"
 import HeroBanner from "./Components/HeroBanner/HeroBanner"
 import HotDeals from "./Components/HotDeals/HotDeals"
 import Navbar from "./Components/Navbar/Navbar"
@@ -11,6 +12,7 @@ function App() {
       <HeroBanner/>
       <HotDeals/>
       <SpecialOffers/>
+      <Footer/>
     </div>
   )
 }

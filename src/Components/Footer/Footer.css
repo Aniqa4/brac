@@ -1,0 +1,42 @@
+.footer{
+    padding: 5% 20%;
+    background-color: #333333;
+    color: white;
+}
+.upper-footer{
+    display: flex;
+    justify-content: space-between;
+    gap:10%;
+}
+.upper-footer p{
+    font-size: small;
+}
+
+.list{
+    list-style: none;
+    padding-inline-start: 0;
+    display: grid;
+    gap:10px;
+}
+.list li{
+    font-size: small;
+}
+.copy-right{
+    text-align: center;
+    font-size: small;
+}
+.copy-right span{
+    text-decoration: underline;
+}
+
+.lower-footer{
+    display: flex;
+    justify-content:space-between;
+    padding: 5% 0;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
