@@ -1,15 +1,8 @@
-.banner {
-    position: relative;
-}
 
-.banner-position {
+.banner{
     background-image: url('./../../assets/banner.jpg');
     background-size: cover;
     background-repeat: repeat-y;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
 }
 
 .upper-banner {

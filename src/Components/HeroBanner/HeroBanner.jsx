@@ -9,8 +9,8 @@ import { BiSolidPlaneTakeOff, BiSolidPlaneLand, BiSearch } from 'react-icons/bi'
 
 function HeroBanner() {
   return (
-    <div className='banner'>
-      <div className='banner-position'>
+    <>
+      <div className='banner'>
         <div className='upper-banner'>
           <h1>Let's make your adventure!</h1>
           <div className='options'>
@@ -62,7 +62,7 @@ function HeroBanner() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
