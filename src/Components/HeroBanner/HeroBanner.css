@@ -1,0 +1,42 @@
+.banner{
+    position: relative;
+}
+.upper-banner{
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   padding: 0 20%;
+   background-color: #ff169e42;
+   color:white;
+   display: grid;
+   gap: 100px;
+}
+.options{
+    display:flex;
+    gap: 10px;
+}
+.banner-button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color:white;
+    font-size: 15px;
+    background-color: #bd0068c6;
+    border-radius: 3px 3px 0 0;
+    border: 0;
+    padding: 5px 15px;
+    margin-bottom: auto;
+}
+.banner-button2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color:white;
+    font-size: 15px;
+    background-color: #bd006890;
+    border-radius: 3px 3px 0 0;
+    border: 0;
+    padding: 5px 15px;
+    margin-bottom: auto;
+}

@@ -1,6 +1,6 @@
-import React from 'react'
-import logo from '../../assets/brac-logo.jpg'
-import '../Navbar/Navbar.css'
+import React from 'react';
+import logo from '../../assets/brac-logo.jpg';
+import '../Navbar/Navbar.css';
 
 function Navbar() {
     return (
@@ -13,4 +13,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;
