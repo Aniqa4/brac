@@ -1,0 +1,22 @@
+.special-offers{
+    padding:0 20% 10%;
+}
+.special-offers-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.special-offers-header p:nth-child(2){
+    color: #BD0067;
+    font-size: small;
+}
+
+.special-offers-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.special-offers-images img{
+    border-radius: 10px;
+}
