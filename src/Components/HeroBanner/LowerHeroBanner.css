@@ -21,16 +21,41 @@
     grid-template-columns: 2fr 1fr 1fr 2fr 1fr; 
     padding: 0 0 20px 0;
 }
+.container p{
+    margin: 0;
+}
 
 .box2{
     grid-row:span 2;
     border-radius: 3px;
     background-color: white;
+    padding: 10px 0 0 10px;
+}
+.box2-style{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+.box2-style div:first-child{
+    font-size: 20px;
+}
+.box2-style div:nth-child(2){
+    display: grid;
+    justify-content:start;
+    align-items: center;
+}
+.box2-22{
+    font-size: 20px;
+    text-align: center;
 }
 .box3{
     grid-row:span 2;
     border-radius: 3px;
     background-color: white;
+    padding: 10px 0 0 10px;
+}
+.box3 P:first-child{
+    font-size: 20px;
 }
 
 .box5{
@@ -38,21 +63,31 @@
     border-radius: 3px;
     display: grid;
     justify-items: center;
-    align-items: center;
+    align-content: center;
     background-color: #FF169D;
     color: white;
+    padding: 10px;
 }
 
 .box5 p:first-child{
-    font-size: 30px;
+    font-size: 40px;
 }
-.box5 p:nth-child(2){
-    margin-top: auto;
-}
+
 .common-box1{
     display: grid;
     align-content:center;
     border-radius: 3px;
     padding: 0 0 0 10px;
     background-color: white;
+}
+
+.plane span{
+    color: #FF169D;
+    font-size: 20px;
+}
+
+.plane p{
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }

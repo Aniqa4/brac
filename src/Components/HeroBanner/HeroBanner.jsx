@@ -5,7 +5,7 @@ import { BiSolidPlaneAlt } from 'react-icons/bi';
 import { RiHotelLine } from 'react-icons/ri';
 import { TbWorldSearch } from 'react-icons/tb';
 import { MdOutlineCalendarMonth } from 'react-icons/md';
-import { BiSolidPlaneTakeOff, BiSolidPlaneLand,BiSearch } from 'react-icons/bi';
+import { BiSolidPlaneTakeOff, BiSolidPlaneLand, BiSearch } from 'react-icons/bi';
 
 function HeroBanner() {
   return (
@@ -26,16 +26,23 @@ function HeroBanner() {
             <p>Multi City</p>
           </div>
           <div className='container'>
-            <div className='box1 common-box1'>
-              <p><span><BiSolidPlaneTakeOff/></span> DAC, Hazrat Sha Jalal Intl Airport</p>
+            <div className='box1 common-box1 plane'>
+              <p><span><BiSolidPlaneTakeOff /></span> DAC, Hazrat Sha Jalal Intl Airport</p>
             </div>
             <div className='box2'>
-              <p><span><MdOutlineCalendarMonth/></span> August</p>
-              <p>22</p>
-              <p>Tuesday</p>
+              <div className='box2-style'>
+                <div>
+                  <MdOutlineCalendarMonth />
+                </div>
+                <div>
+                  <p>August</p>
+                  <p className='box2-22'>22</p>
+                  <p>Tuesday</p>
+                </div>
+              </div>
             </div>
             <div className='box3'>
-              <p><MdOutlineCalendarMonth/></p>
+              <p><MdOutlineCalendarMonth /></p>
               <p>Check to Return</p>
               <p>Flight</p>
             </div>
@@ -43,11 +50,11 @@ function HeroBanner() {
               <p>Economy</p>
             </div>
             <div className='box5'>
-              <p><BiSearch/></p>
+              <p><BiSearch /></p>
               <p>search</p>
             </div>
-            <div className='box6 common-box1'>
-              <p><span><BiSolidPlaneLand/></span> DXB, Dubai Intl Airport</p>
+            <div className='box6 common-box1 plane'>
+              <p><span><BiSolidPlaneLand /></span> DXB, Dubai Intl Airport</p>
             </div>
             <div className='box7 common-box1'>
               <p>1 Passenger</p>
