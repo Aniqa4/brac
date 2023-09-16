@@ -59,7 +59,7 @@ function Footer() {
             <div className='lower-footer'>
                 <div>
                     <h4>We Accept</h4>
-                    <img src={payment} alt="" />
+                    <img src={payment} width={'100%'} />
                 </div>
                 <div>
                     <h4>Social</h4>

@@ -40,3 +40,26 @@
     gap: 10px;
     align-items: baseline;
 }
+
+@media only screen and (max-width:576px)
+{
+    .footer{
+        padding: 5% 5%;
+    }
+    .upper-footer{
+        display: grid;
+        gap:0;
+    }
+    .lower-footer{
+        display: grid;
+    }
+}
+@media only screen and (max-width:768px)
+{
+    .footer{
+        padding: 5% 5%;
+    }
+    .lower-footer{
+        display: grid;
+    }
+}

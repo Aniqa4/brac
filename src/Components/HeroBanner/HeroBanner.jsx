@@ -6,6 +6,7 @@ import { RiHotelLine } from 'react-icons/ri';
 import { TbWorldSearch } from 'react-icons/tb';
 import { MdOutlineCalendarMonth } from 'react-icons/md';
 import { BiSolidPlaneTakeOff, BiSolidPlaneLand, BiSearch } from 'react-icons/bi';
+import MobileLayout from './MobileLayout';
 
 function HeroBanner() {
   return (
@@ -59,6 +60,9 @@ function HeroBanner() {
             <div className='box7 common-box1'>
               <p>1 Passenger</p>
             </div>
+          </div>
+          <div className='mobile-layout'>
+            <MobileLayout/>
           </div>
         </div>
       </div>

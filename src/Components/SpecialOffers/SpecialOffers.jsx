@@ -4,7 +4,6 @@ import picture2 from '../../assets/2.jpg';
 import picture3 from '../../assets/3.jpg';
 import './SpecialOffers.css'
 
-
 function SpecialOffers() {
     return (
         <div>

@@ -91,3 +91,48 @@
     gap: 5px;
     align-items: center;
 }
+
+.mobile-layout{
+    display: none;
+}
+
+@media only screen and (max-width:576px)
+{
+    .lower-banner{
+        padding: 0 5%;
+    }
+    .container{
+       display: none;
+    }
+    .mobile-layout{
+        display: flex;
+    }
+    .container-for-mobile{
+        font-size: smaller;
+        display: grid;
+        gap: 3px;
+        grid-template-columns: 1fr 1fr; 
+        padding: 0 0 20px 0;
+    }
+    .container-for-mobile p{
+        margin: 0;
+    }
+    
+    .box5{
+        grid-column:span 2;
+        border-radius: 3px;
+        display: grid;
+        justify-items: center;
+        align-content: center;
+        background-color: #FF169D;
+        color: white;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .lower-banner{
+        padding: 0 5%;
+    }
+}

@@ -20,3 +20,10 @@
 .special-offers-images img{
     border-radius: 10px;
 }
+
+@media only screen and (max-width:768px)
+{
+    .special-offers{
+        padding:0 5% 10%;
+    }
+}
